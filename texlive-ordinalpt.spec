@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/ordinalpt
+# catalog-date 2007-02-25 09:43:45 +0100
+# catalog-license lppl
+# catalog-version 2.1
 Name:		texlive-ordinalpt
 Version:	2.1
 Release:	1
@@ -47,6 +53,7 @@ inflections.
 #- source
 %doc %{_texmfdistdir}/source/latex/ordinalpt/ordinalpt.dtx
 %doc %{_texmfdistdir}/source/latex/ordinalpt/ordinalpt.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -57,3 +64,5 @@ inflections.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
