@@ -6,7 +6,7 @@
 # catalog-version 2.1
 Name:		texlive-ordinalpt
 Version:	2.1
-Release:	1
+Release:	2
 Summary:	Counters as ordinal numbers in Portuguese
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ordinalpt
