@@ -1,6 +1,6 @@
 Name:		texlive-ordinalpt
 Version:	15878
-Release:	1
+Release:	2
 Summary:	Counters as ordinal numbers in Portuguese
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ordinalpt
