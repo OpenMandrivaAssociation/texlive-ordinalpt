@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Counters as ordinal numbers in Portuguese
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ordinalpt
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/ordinalpt
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ordinalpt.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ordinalpt.doc.r%{version}.tar.xz
